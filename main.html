@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        margin-top: 100px;
+        color: azure;
+        text-align: center;
+    }
+    p {
+        color: azure;
+        margin-left: 10cm;
+        font-size: x-large;
+        font-style: italic;
+    }
+    table {
+        color: azure;
+        align-content: center;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    tr:hover
+          {
+        background-color: #072a2a;
+        text-align: left ;
+    }    
+
+
+    .background {
+        background-image: url('thumb-1920-1270614.jpg');
+        height: 1000px; /* Add a height to display the background image */
+        background-size: cover; /* Ensures the image covers the entire element */
+    }
+</style>
+
+<body>
+    <div class="background">
+        <h1>Fc Barcelona</h1>
+        <p>FC Barcelona is a famous Spanish football club known for its rich history and success.</p>
+        <table>
+            <tr>
+              <th>S.NO</th>  
+              <th>PLAYERS</th>
+              <th>NATIONALITY</th>
+              <th>GOALS</th>
+              <th>ASSISTS</th>
+            </tr>
+            <tr onclick="openBio('Robert Lewandowski')">
+              <td>01</td>
+              <td>Robert Lewandowski</td>
+              <td><span class="fi fi-pl"></span></td>
+              <td>19</td>
+              <td>8</td>
+            </tr>
+            <tr>
+                <td>02</td>
+              <td>Fermin Lopez</td>
+              <td><span class="fi fi-es"></span></td>
+              <td>08</td>
+              <td>0</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Joao Felix</td>
+                <td><span class="fi fi-pt"></span></td>
+                <td>07</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Ferran Torres</td>
+                <td><span class="fi fi-es"></span></td>
+                <td>07</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Raphinha</td>
+                <td><span class="fi fi-br"></span></td>
+                <td>06</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>Lamine Yamal</td>
+                <td><span class="fi fi-es"></span></td>
+                <td>05</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>Ilkay Gundogan</td>
+                <td><span class="fi fi-de"></span></td>
+                <td>05</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>08</td>
+                <td>Pedri</td>
+                <td><span class="fi fi-es"></span></td>
+                <td>04</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>09</td>
+                <td>Sergi Roberto</td>
+                <td><span class="fi fi-es"></span></td>
+                <td>03</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Jooao Cancelo</td>
+                <td><span class="fi fi-pt"></span></td>
+                <td>02</td>
+                <td>4</td>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>
+<script>
+    const bios = {
+            'Robert Lewandowski': 'Robert Lewandowski is a Polish professional footballer who plays as a striker for FC Barcelona and the Poland national team.'
+    }
+    
+
+</script>
